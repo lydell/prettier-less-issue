@@ -1,6 +1,10 @@
 {
   "private": true,
+  "scripts": {
+    "write": "prettier --write src/styles/theme.less",
+    "list": "prettier -l src/styles/theme.less"
+  },
   "dependencies": {
-    "prettier": "1.14.3"
+    "prettier": "github:ikatyang/prettier#feat/html/todos"
   }
 }
